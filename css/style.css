@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font: 500 12px/1 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.nunito-sans {
+    font: 400 18px/1 'Nunito Sans', sans-serif;
+}
+
+.header {
+    padding: 40px 0px;
+}
+
+.container {
+    max-width: 1201px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.main-header-nav {
+    color: #191919;
+    font-weight: 700;
+    margin-left: auto;
+}
+
+.main-header-nav a+a {
+    margin-left: 28px;
+}
+
+.main-header-nav>a:hover {
+    color: #10c9c3;
+}
