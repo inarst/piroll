@@ -44,8 +44,8 @@ body {
 }
 
 .container {
-    max-width: 1201px;
-    padding: 0 15px;
+    max-width: 1366px;
+    padding: 0 98px;
     margin: auto;
 }
 
@@ -69,12 +69,13 @@ body {
 
 .inner {
     height: 673px;
+    background: url('../img/nb.png');
     background-color: #e9e9e9;
     padding-top: 103px;
 }
 
 .inner-text-01 {
-    padding-left: 690px;
+    padding-left: 530px;
 }
 
 .inner-text-01-01 {
