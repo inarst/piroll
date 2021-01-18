@@ -9,7 +9,8 @@ a {
 
 h1,
 h2,
-h3 {
+h3,
+p {
     margin: 0;
     font-size: inherit;
 }
@@ -191,6 +192,10 @@ body {
     background-color: #10c9c3;
 }
 
+.inner_03 {
+    height: 570px;
+}
+
 .box_02 {
     position: relative;
 }
@@ -202,7 +207,95 @@ body {
     background: url('../img/pn.png') no-repeat;
     /*background-color: #e9e9e9;*/
     position: absolute;
-    left: -98px;
+    right: -98px;
     top: 0;
     z-index: -1;
+}
+
+.inner_04 {
+    height: 243px;
+    background-color: #10c9c3;
+    padding: 102.5px 0px;
+    max-width: 1366px;
+    margin: auto;
+}
+
+.project-complited {
+    padding-left: 4px;
+    height: 38px;
+}
+
+.inner_04-text {
+    padding-left: 30px;
+    flex-direction: column;
+    height: inherit;
+}
+
+.px18w700 {
+    font-size: 18px;
+    color: white;
+}
+
+.px12w500 {
+    color: white;
+    margin-top: auto;
+}
+
+.inner_04-height {
+    height: 38px;
+}
+
+.stats div+div {
+    margin-left: 80px;
+}
+
+.container_02 {
+    max-width: 1366px;
+    margin: auto;
+}
+
+.m-width {
+    max-width: 341.5px;
+}
+
+.light {
+    position: relative;
+}
+
+.eye {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../img/eye.png) no-repeat;
+    display: none;
+}
+
+.light:hover .eye {
+    display: block;
+}
+
+.box_03 {
+    position: relative;
+}
+
+.pic_04 {
+    position: absolute;
+    right: 0;
+}
+
+.pic_03 {
+    position: absolute;
+    right: 341.5px;
+}
+
+.pic_02 {
+    position: absolute;
+    right: 683px;
+}
+
+.pic_01 {
+    position: absolute;
+    right: 1024.5px;
 }
