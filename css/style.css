@@ -51,6 +51,12 @@ body {
     margin: auto;
 }
 
+.pre-container {
+    position: relative;
+    max-width: 1366px;
+    margin: auto;
+}
+
 .main-header-nav {
     color: #191919;
     font-weight: 700;
@@ -252,10 +258,26 @@ body {
 .container_02 {
     max-width: 1366px;
     margin: auto;
+    column-count: 4;
+    column-gap: 0;
+    margin-top: -3px;
+}
+
+.container-position {
+    position: absolute;
+    bottom: -303px;
+}
+
+.container_02_panel {
+    break-inside: avoid;
+}
+
+container_02_panel-content {
+    height: 303px;
 }
 
 .m-width {
-    max-width: 341.5px;
+    max-width: 341.48px;
 }
 
 .light {
@@ -298,4 +320,27 @@ body {
 .pic_01 {
     position: absolute;
     right: 1024.5px;
+}
+
+.container_03 {
+    max-width: 1366px;
+    margin: auto;
+    background-color: #f5f5f5;
+    height: 100px;
+    margin-top: -3px;
+}
+
+.loa-mor {
+    margin: auto;
+}
+
+.load-more {
+    background-color: #f5f5f5;
+    color: #323232;
+    max-width: 1366px;
+}
+
+.load-more-text {
+    margin-top: 50px;
+    padding-top: 55px;
 }
